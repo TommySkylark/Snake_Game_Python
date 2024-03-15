@@ -314,8 +314,8 @@ def start_screen():
 
     #Easy button
 
-    pygame.draw.rect(dis, GREEN,(25,350,100,50))
-    
+    pygame.draw.rect(dis, WHITE, (25, 350, 100, 50))
+
     easy_font = pygame.font.Font("freesansbold.ttf", 15)
     textSurf, textRect = text_objects("Easy", easy_font)
     textRect.center = ((25+50), (350 + 25))
@@ -324,8 +324,8 @@ def start_screen():
     
     #Normal Button
 
-    pygame.draw.rect(dis, BLUE,(175,350,100,50))
-    
+    pygame.draw.rect(dis, WHITE, (175, 350, 100, 50))
+
     normal_font = pygame.font.Font("freesansbold.ttf", 15)
     textSurf, textRect = text_objects("Normal", normal_font)
     textRect.center = ((175+50), (350 + 25))
@@ -333,8 +333,8 @@ def start_screen():
     
     #Hard Button
     
-    pygame.draw.rect(dis, RED,(325,350,100,50))
-    
+    pygame.draw.rect(dis, WHITE, (325, 350, 100, 50))
+
     normal_font = pygame.font.Font("freesansbold.ttf", 15)
     textSurf, textRect = text_objects("Hard", normal_font)
     textRect.center = ((325+50), (350 + 25))
